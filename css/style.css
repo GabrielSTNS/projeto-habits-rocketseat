@@ -109,7 +109,13 @@ input:checked {
 }
 
 @media (max-width: 570px) {
-button div {
-  display: none;
+  button div {
+    display: none;
+  }
 }
+
+.textoFooter {
+  display: flex;
+  justify-content: center;
+  background-color: purple;
 }
